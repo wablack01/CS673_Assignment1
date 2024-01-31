@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Question3 {
     public static void main(String[] args) {
         //get user input and change to lower case
-        System.out.print("Type in a string a press enter to test if the string is a palindrome: ");
+        System.out.print("Input a string a press enter to test if the string is a palindrome (enter q to exit): ");
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
         str = str.toLowerCase();
